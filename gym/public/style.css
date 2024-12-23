@@ -1,0 +1,31 @@
+
+
+body{
+    background-color: rgb(231, 240, 244);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(11, 30, 57);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid orange;
+}
+
+nav h2{
+    color: orange;
+}
+
+nav a{
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    color: orange;
+}
